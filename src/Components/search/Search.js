@@ -17,7 +17,7 @@ class Search extends Component {
   ontextChange = e => {
     let val=e.target.value;
     this.setState({ [e.target.name]: val }, () => {
-      if(val==""){
+      if(val===""){
         this.setState({images:[]})
       }
       else{
