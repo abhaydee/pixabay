@@ -3,7 +3,8 @@ import TextField from "material-ui/TextField";
 import Select from "material-ui/SelectField";
 import MenuItem from "material-ui/MenuItem";
 import axios from "axios";
-import imageresult from '../Imagesresult/Imagesresult.js';
+import Imageresult from "../myimg/Imageresult";
+
 class Search extends Component {
   state = {
     searchText: "",

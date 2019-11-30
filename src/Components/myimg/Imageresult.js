@@ -27,7 +27,7 @@ import FlatButton from 'material-ui/FlatButton';
                             </IconButton>
                         }
                     >
-                    <img src="img.largeImageURL" alt=""></img>
+                    <img src={img.largeImageURL} alt=""></img>
                     </GridTile>
                 ))}
                 </GridList>
@@ -38,14 +38,14 @@ import FlatButton from 'material-ui/FlatButton';
         }
         return (
             <div>
-                
+                {imagelistcontent}
             </div>
         )
     }
 }
 
 
-Imageresult.PropTypes={
-    images:PropTypes.array.isRequired
-}
+// Imageresult.PropTypes={
+//     images:PropTypes.array.isRequired
+// }
 export default Imageresult;
